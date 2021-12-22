@@ -18,7 +18,7 @@ def detect_labels(bucket, key):
 
 def lambda_handler(event, context):
     
-    table = ddb.Table("dio-live-step-tb")
+    table = ddb.Table("nome_da_sua_tabela")
     
     # Obter objeto do Amazon S3
     states_input = json.dumps(event)
