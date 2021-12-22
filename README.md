@@ -35,5 +35,5 @@
 #### Função de extração de metadados do arquivo no S3
 
  - Lambda Console -> Create function -> Author from scratch -> Function name [extract-metadata-function] -> Runtime [Python3.8] -> Role [Create new role with basic Lambda permissions] -> Create function
- - Inserir o [código](src/ambda_file_metadata.py) no editor de código -> Deploy 
+ - Inserir o [código](src/lambda_file_metadata.py) no editor de código -> Deploy 
 
