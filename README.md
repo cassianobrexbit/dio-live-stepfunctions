@@ -26,6 +26,10 @@
 
 ## Passos do desenvolvimento
 
+### Criar bucket no Amazon S3
+
+- S3 Console -> Create bucket -> Bucket name [seu_bucket] -> Create bucket 
+
 ### Criar tabela no Amazon DynamoDB
 
  - DynamoDB Console -> Create table - > Table name [nome_da_sua_tabela] -> Partition key [filename] -> Create table
