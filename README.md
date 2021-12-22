@@ -59,5 +59,11 @@
 
 ### Configurar o CloudTrail
 
- - CloudTrail Console -> Trails -> 
+ - CloudTrail Console -> Trails -> Trail name [nome_da_trail] -> Storage location [Create new S3 bucket] -> Next
+ - Events -> Event type -> Data events -> Switch to basic event selectors -> Individual bucket selection [read, write] -> Choose bucket -> Next
+ - Create trail
 
+### Configurar regra de evento no CloudWatch
+
+ - CloudWatch Console -> Rules -> Create Rule -> Event Pattern -> Service Name [Simple Storage Service] -> Event Type [Object Level Operations] -> Specific Operations [PutObject] -> Specific bucket by name [bucket_criado]
+ - Targets -> Add target -> Step Functions state machine -> State machine [sua_state_machine] -> Create a new role for this specific resource
