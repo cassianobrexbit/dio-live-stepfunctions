@@ -48,7 +48,8 @@
 
 ### Configurar políticas de acesso
 
-- Selecionar as Roles criadas nas funções e no console do IAM criar adicionar as seguintes Policies
+- Selecionar a função criada -> Configuration -> Permissions -> Execution role 
+- Adicionar as seguintes Policies
 
   - CloudWatchFullAccess
   - AmazonRekognitionFullAccess
