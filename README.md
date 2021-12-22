@@ -72,3 +72,4 @@
 
  - CloudWatch Console -> Rules -> Create Rule -> Event Pattern -> Service Name [Simple Storage Service] -> Event Type [Object Level Operations] -> Specific Operations [PutObject] -> Specific bucket by name [bucket_criado]
  - Targets -> Add target -> Step Functions state machine -> State machine [sua_state_machine] -> Create a new role for this specific resource
+ - Configure details -> Name [nome_da_rule]
