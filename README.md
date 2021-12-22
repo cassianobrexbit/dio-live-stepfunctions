@@ -32,8 +32,14 @@
 
 ### Criar funções lambda
 
-#### Função de extração de metadados do arquivo no S3
+#### Função de extração de metadados do arquivo no Amazon S3
 
  - Lambda Console -> Create function -> Author from scratch -> Function name [extract-metadata-function] -> Runtime [Python3.8] -> Role [Create new role with basic Lambda permissions] -> Create function
- - Inserir o [código](src/lambda_file_metadata.py) no editor de código -> Deploy 
+ - Inserir o [código](src/lambda_file_metadata.py) no editor de código -> Deploy
+
+### Função para chamada da API do Amazon Rekognition
+
+- Lambda Console -> Create function -> Author from scratch -> Function name [rekognition-api-function] -> Runtime [Python3.8] -> Role [Create new role with basic Lambda permissions] -> Create function
+ - Inserir o [código](src/lambda_rekognition_api.py) no editor de código -> Deploy
+
 
