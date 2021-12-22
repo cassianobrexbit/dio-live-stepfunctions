@@ -54,4 +54,10 @@
 
 ### Criar máquina de estado no AWS Step Functions
 
+ - Step Functions Console -> State machines -> Create state machine -> Write your workflow in code -> Standard -> Inserir o [código](src/state_machine.json) no editor -> Next
+ - Name [nome_da_sua_state_machine] -> Execution role [Create_new_role] -> Create state machine
+
+### Configurar o CloudTrail
+
+ - CloudTrail Console -> Trails -> 
 
