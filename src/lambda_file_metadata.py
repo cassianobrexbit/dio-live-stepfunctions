@@ -7,7 +7,7 @@ ddb = boto3.resource('dynamodb')
 
 # Função para extração de metadados de arquivo enviado ao Amazon S3
 def lambda_handler(event,context):
-    table = ddb.Table("dio-live-step-tb")
+    table = ddb.Table("nome_da_sua_tabela")
     
     # Leitura da entrada da máquina de estado (state machine)
     states_input = json.dumps(event)
